@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f2eee7">
+  <meta name="description" content="Наташа — преподаватель кундалини-йоги. Внутреннее состояние, которое меняет жизнь через инструменты кундалини-йоги.">
+  <meta property="og:title" content="Наташа — преподаватель кундалини-йоги">
+  <meta property="og:description" content="Красивые люди начинаются изнутри. Онлайн, офлайн и индивидуальные программы.">
+  <meta property="og:image" content="assets/images/hero-sunset.jpg">
+  <title>Наташа — Кундалини-йога и ретриты</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="header" id="header">
+    <a class="brand" href="#/">
+      <span class="brand-mark">Н</span>
+      <span>НАТАША<small>КУНДАЛИНИ-ЙОГА</small></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Основная навигация">
+      <a href="#/programs">Практики</a>
+      <a href="#/retreats">Ретриты</a>
+      <a href="#/events">События</a>
+      <a href="#/about">Обо мне</a>
+      <a href="#/blog">Бесплатные практики</a>
+      <a href="#/contacts">Контакты</a>
+    </nav>
+    <a class="header-cta" href="https://wa.me/351914417117" target="_blank" rel="noopener">Записаться <span>↗</span></a>
+    <button class="menu" id="menu" aria-label="Открыть меню"><i></i><i></i></button>
+  </header>
+  <main id="app"></main>
+  <footer class="footer">
+    <div class="footer-top">
+      <div><span class="eyebrow light">Личный контакт</span><h2>Красивые люди<br><em>начинаются изнутри</em></h2></div>
+      <a class="circle-link" href="https://wa.me/351914417117" target="_blank" rel="noopener">Написать<br>мне <span>↗</span></a>
+    </div>
+    <div class="footer-bottom">
+      <a class="brand footer-brand" href="#/"><span class="brand-mark">Н</span><span>НАТАША<small>КУНДАЛИНИ-ЙОГА</small></span></a>
+      <div class="socials"><a href="https://www.instagram.com/la.natasha_" target="_blank" rel="noopener">Instagram</a><a href="https://t.me/rudenkonatashenka" target="_blank" rel="noopener">Telegram</a><a href="https://wa.me/351914417117" target="_blank" rel="noopener">WhatsApp</a></div>
+      <p>© 2026 · Все права защищены</p>
+    </div>
+  </footer>
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-card">
+      <button class="modal-close" data-close>×</button>
+      <span class="eyebrow">Личная встреча</span>
+      <h2>Давайте познакомимся</h2>
+      <p>Оставьте контакты — я свяжусь с вами, чтобы почувствовать ваш запрос и выбрать подходящий формат.</p>
+      <form class="form" id="leadForm">
+        <label>Ваше имя<input name="name" required placeholder="Как к вам обращаться"></label>
+        <label>Telegram или WhatsApp<input name="contact" required placeholder="@username или номер"></label>
+        <label>Что сейчас особенно важно?<textarea name="message" rows="3" placeholder="Несколько слов о вашем запросе"></textarea></label>
+        <button class="button dark" type="submit">Отправить запрос <span>↗</span></button>
+        <small>Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.</small>
+      </form>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

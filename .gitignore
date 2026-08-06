@@ -1,0 +1,8 @@
+dist/
+*.tar.gz
+assets/video/natasha-intro.mov
+assets/video/natasha-intro.mp4
+assets/video/pranayama-stress.mp4
+assets/video/meditation-reset.mp4
+assets/video/*-web.mp4
+assets/images/
