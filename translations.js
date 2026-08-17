@@ -362,7 +362,8 @@ export function translatePage(root,language){
       if(node.parentElement?.closest('script,style'))continue;
       if(!originals.has(node))originals.set(node,node.nodeValue);
       const source=originals.get(node);
-      node.nodeValue=language==='en'?translateText(source):source;
+      const target=language==='en'?translateText(source):source;
+      if(node.nodeValue!==target)node.nodeValue=target;
       continue;
     }
     for(const attr of ['aria-label','placeholder','title','alt','content']){
@@ -371,7 +372,8 @@ export function translatePage(root,language){
       if(!node.__languageOriginals)node.__languageOriginals={};
       if(!(key in node.__languageOriginals))node.__languageOriginals[key]=node.getAttribute(attr);
       const source=node.__languageOriginals[key];
-      node.setAttribute(attr,language==='en'?translateText(source):source);
+      const target=language==='en'?translateText(source):source;
+      if(node.getAttribute(attr)!==target)node.setAttribute(attr,target);
     }
   }
   document.title=language==='en'?'Natasha — Kundalini Yoga and Retreats':'Наташа — Кундалини-йога и ретриты';
