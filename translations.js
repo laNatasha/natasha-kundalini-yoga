@@ -1,4 +1,9 @@
 const EN={
+  'Н':'N',
+  'Имя':'Name',
+  'Стоимость':'Price',
+  'и количество мест':'and number of places',
+  'глубокая работа':'deep work',
   'ВНУТРЕННЯЯ СИЛА':'INNER STRENGTH',
   'Выход за грани привычного себя':'Beyond the Limits of Your Familiar Self',
   'ВНУТРЕННЯЯ СИЛА<br>Выход за грани привычного себя':'INNER STRENGTH<br>Beyond the Limits of Your Familiar Self',
