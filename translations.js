@@ -353,7 +353,7 @@ const EN={
 
 const entries=Object.entries(EN).sort((a,b)=>b[0].length-a[0].length);
 const originals=new WeakMap();
-export function translateText(value){let result=String(value??'');for(const [ru,en] of entries)result=result.split(ru).join(en);return result}
+export function translateText(value){let result=String(value??'');if(result.trim()==='и')return result.replace('и','and');for(const [ru,en] of entries)result=result.split(ru).join(en);return result}
 export function translatePage(root,language){
   const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT|NodeFilter.SHOW_ELEMENT);
   let node;
