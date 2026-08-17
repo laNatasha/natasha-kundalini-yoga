@@ -1,4 +1,4 @@
-import {translatePage,translateText} from './translations.js';
+import {translatePage,translateText} from './translations.js?v=20260817-2';
 const A='assets/images/';
 const LANGUAGE_STORAGE_KEY='natasha-site-language';
 const SUPPORTED_LANGUAGES=['ru','en'];
