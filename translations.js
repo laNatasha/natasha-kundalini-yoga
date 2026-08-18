@@ -348,7 +348,32 @@ const EN={
   '@username или номер':'@username or number',
   'Что сейчас особенно важно?':'What feels especially important right now?',
   'Несколько слов о вашем запросе':'A few words about what you are looking for',
-  'Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.':'By clicking the button, you agree to the privacy policy.'
+  'Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.':'By clicking the button, you agree to the privacy policy.',
+  'Стоимость проживания':'Accommodation Prices',
+  'СТОИМОСТЬ':'ACCOMMODATION',
+  'ПРОЖИВАНИЯ':'PRICES',
+  'Весь дом':'Entire house',
+  'от 300 € / сутки':'from €300 / day',
+  'Семейная комната':'Family Room',
+  'до 2 человек':'up to 2 guests',
+  '60 € / ночь':'€60 / night',
+  'Мансарда':'Attic',
+  'до 4 человек':'up to 4 guests',
+  '100 € / ночь':'€100 / night',
+  'Спальное место и диван-кровать.':'Sleeping area and sofa bed.',
+  'Домик на дереве':'Tree House',
+  'Питание':'Meals',
+  'Завтрак':'Breakfast',
+  '10 € с человека':'€10 per person',
+  'Обед или ужин':'Lunch or dinner',
+  '30 € с человека':'€30 per person',
+  'Напитки':'Drinks',
+  'Красное вино Esteva':'Esteva red wine',
+  'Белое вино João Pires':'João Pires white wine',
+  'Vinho Verde Muralhas':'Muralhas Vinho Verde',
+  'Пиво или безалкогольный напиток':'Beer or soft drink',
+  '15 €':'€15',
+  '2 €':'€2'
 };
 
 const entries=Object.entries(EN).sort((a,b)=>b[0].length-a[0].length);
