@@ -374,6 +374,10 @@ const EN={
   'Пиво или безалкогольный напиток':'Beer or soft drink',
   '15 €':'€15',
   '2 €':'€2'
+  ,'Стоимость аренды всего дома — от 300 € / сутки.':'Entire house — from €300 / day'
+  ,'До 2 человек':'Up to 2 guests'
+  ,'До 4 человек':'Up to 4 guests'
+  ,'Забронировать':'Book'
 };
 
 const entries=Object.entries(EN).sort((a,b)=>b[0].length-a[0].length);
